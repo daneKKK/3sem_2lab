@@ -9,14 +9,14 @@ private:
 public:
     Population(int populationCount, float massOfOneObject, float energy, std::string name);
     int getPopulationCount();
-    void setPopulationCount(float mass);
+    void setPopulationCount(int populationCountInput);
     float getEnergy();
     void setEnergy(float energy);
     float getOneMass();
     std::string getName();
-    virtual bool checkReproductiveAbility();
-    virtual void reproduce();
-    virtual bool checkDeath();
-    virtual void kill();
-    virtual void eat();
-}
+    virtual bool checkReproductiveAbility() {};
+    virtual void reproduce() {};
+    virtual bool checkDeath() {};
+    virtual void kill() {};
+    virtual void eat() {};
+};
