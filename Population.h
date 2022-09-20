@@ -17,6 +17,6 @@ public:
     virtual bool checkReproductiveAbility() {};
     virtual void reproduce() {};
     virtual bool checkDeath() {};
-    virtual void kill() {};
-    virtual void eat() {};
+    virtual void changePopulation() {};
+    virtual void eat(Population* prey) {};
 };

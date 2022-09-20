@@ -25,3 +25,4 @@ float Population::getOneMass() {
 std::string Population::getName() {
     return name;
 }
+
