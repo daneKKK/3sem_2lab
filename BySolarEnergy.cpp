@@ -11,6 +11,6 @@ void BySolarEnergy::reproduce() {
 };
 
 void BySolarEnergy::eat(Population* prey) {
-    setEnergy(season * getPopulationCount() * getOneMass() / 2) ; //зима = 1, весна = осень = 2, лето = 3 кушают солнечную энергию
+    setEnergy(getPopulationCount() * getOneMass()) ;
 };
 
