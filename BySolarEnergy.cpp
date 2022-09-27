@@ -1,6 +1,6 @@
 #include "BySolarEnergy.h"
 
-BySolarEnergy::BySolarEnergy(int populationCount, float massOfOneObject, float energy, std::string name): Population(populationCount, massOfOneObject, energy, std::string name) {};
+BySolarEnergy::BySolarEnergy(int populationCount, float massOfOneObject, float energy, std::string name): Bacterias(populationCount, massOfOneObject, energy, std::string name) {};
 
 bool BySolarEnergy::checkReproductiveAbility() {
     return true;
