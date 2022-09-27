@@ -16,7 +16,6 @@ public:
     float getOneMass();
     std::string getName();
     virtual bool checkReproductiveAbility() {};
-    virtual void reproduce() {};
     virtual bool checkDeath() {};
     virtual void changePopulation() {};
     virtual void eat(Population* prey) {};
