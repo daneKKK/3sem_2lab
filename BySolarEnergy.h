@@ -3,7 +3,7 @@
 
 class BySolarEnergy: public Bacterias {
 public:
-    BySoralEnergy(int populationCount, float massOfOneObject, float energy, std::string name);
+    BySolarEnergy(int populationCount, float massOfOneObject, float energy, std::string name);
 
     bool checkReproductiveAbility();
     void reproduce();
