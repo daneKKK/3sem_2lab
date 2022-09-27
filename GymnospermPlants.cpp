@@ -15,6 +15,6 @@ bool GymnospermPlants::checkReproductiveAbility() {
     return true;
 }
 
-void GymnospermPlants::eat(::Population prey) {
+void GymnospermPlants::eat(::Population *prey) {
     this->setEnergy(this->getPopulationCount() / 2.5);
 }

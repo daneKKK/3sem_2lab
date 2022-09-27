@@ -6,5 +6,5 @@ public:
     GymnospermPlants(int populationCount, float massOfOneObject, float energy, std::string name);
     void changePopulation();
     bool checkReproductiveAbility();
-    void eat(::Population prey);
+    void eat(::Population *prey);
 };
