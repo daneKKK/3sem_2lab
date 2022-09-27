@@ -1,5 +1,8 @@
 #include "GymnospermPlants.h"
 
+GymnospermPlants::GymnospermPlants(int populationCount, float massOfOneObject, float energy, std::string name) : Plants(populationCount, massOfOneObject, energy, name) {};
+
+
 void GymnospermPlants::changePopulation() {
     if (this->getPopulationCount() * (this->getOneMass()) < 500) {
         this->setPopulationCount(this->getEnergy() / this->getOneMass());
