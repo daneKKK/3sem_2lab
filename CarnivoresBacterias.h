@@ -6,8 +6,8 @@ public:
     CarnivoresBacterias(int populationCount, float massOfOneObject, float energy, std::string name);
 
     bool checkReproductiveAbility();
-    void reproduce();
+    //void reproduce();
 
-    //void changePopulation();
+    void changePopulation();
     void eat(::Population *prey);
 };
