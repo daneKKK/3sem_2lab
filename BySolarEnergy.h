@@ -7,6 +7,6 @@ public:
     void reproduce();
 
     //void changePopulation();
-    void eat(int season);
+    void eat(Population* prey);
 
 };
