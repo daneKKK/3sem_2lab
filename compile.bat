@@ -1,18 +1,18 @@
-g++ main.cpp -E -o main_prof.cpp
-g++ Population.cpp -E -o Population_prof.cpp
-g++ Plants.cpp -E -o Plants_prof.cpp
-g++ FloweringPlants.cpp -E -o FloweringPlants_prof.cpp
-g++ GymnospermPlants.cpp -E -o GymnospermPlants_prof.cpp
-g++ Bacterias.cpp -E -o Bacterias_prof.cpp
-g++ CarnivoresBacterias.cpp -E -o CarnivoresBacterias_prof.cpp
-g++ BySolarEnergy.cpp -E -o BySolarEnergy_prof.cpp
-g++ main_prof.cpp -c -o main.o
-g++ Population_prof.cpp -c -o Population.o
-g++ Plants_prof.cpp -c -o Plants.o
-g++ FloweringPlants_prof.cpp -c -o FloweringPlants.o
-g++ GymnospermPlants_prof.cpp -c -o GymnospermPlants.o
-g++ Bacterias_prof.cpp -c -o Bacterias.o
-g++ CarnivoresBacterias_prof.cpp -c -o CarnivoresBacterias.o
-g++ BySolarEnergy_prof.cpp -c -o BySolarEnergy.o
-g++ main.o Population.o Plants.o FloweringPlants.o GymnospermPlants.o Bacterias.o CarnivoresBacterias.o BySolarEnergy.o -o main
-main
+mkdir temp
+g++ main.cpp -E -o ./temp/main_prof.cpp
+g++ Population.cpp -E -o ./temp/Population_prof.cpp
+g++ Plants.cpp -E -o ./temp/Plants_prof.cpp
+g++ FloweringPlants.cpp -E -o ./temp/FloweringPlants_prof.cpp
+g++ GymnospermPlants.cpp -E -o ./temp/GymnospermPlants_prof.cpp
+g++ Bacterias.cpp -E -o ./temp/Bacterias_prof.cpp
+g++ CarnivoresBacterias.cpp -E -o ./temp/CarnivoresBacterias_prof.cpp
+g++ BySolarEnergy.cpp -E -o ./temp/BySolarEnergy_prof.cpp
+g++ ./temp/main_prof.cpp -c -o ./temp/main.o
+g++ ./temp/Population_prof.cpp -c -o ./temp/Population.o
+g++ ./temp/Plants_prof.cpp -c -o ./temp/Plants.o
+g++ ./temp/FloweringPlants_prof.cpp -c -o ./temp/FloweringPlants.o
+g++ ./temp/GymnospermPlants_prof.cpp -c -o ./temp/GymnospermPlants.o
+g++ ./temp/Bacterias_prof.cpp -c -o ./temp/Bacterias.o
+g++ ./temp/CarnivoresBacterias_prof.cpp -c -o ./temp/CarnivoresBacterias.o
+g++ ./temp/BySolarEnergy_prof.cpp -c -o ./temp/BySolarEnergy.o
+g++ ./temp/main.o ./temp/Population.o ./temp/Plants.o ./temp/FloweringPlants.o ./temp/GymnospermPlants.o ./temp/Bacterias.o ./temp/CarnivoresBacterias.o ./temp/BySolarEnergy.o -o main
