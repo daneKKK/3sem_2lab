@@ -1,3 +1,4 @@
+#pragma once
 #include "Bacterias.h"
 
 class BySolarEnergy: public Bacterias {
@@ -8,4 +9,4 @@ public:
     //void changePopulation();
     void eat(int season);
 
-}
+};

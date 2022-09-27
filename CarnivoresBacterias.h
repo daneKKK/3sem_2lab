@@ -1,3 +1,4 @@
+#pragma once
 #include "Bacterias.h"
 
 class CarnivoresBacterias: public Bacterias {
@@ -6,5 +7,5 @@ public:
     void reproduce();
 
     //void changePopulation();
-    void eat(::Population prey);
-}
+    void eat(::Population *prey);
+};

@@ -1,3 +1,4 @@
+#pragma once
 #include "Plants.h"
 
 class GymnospermPlants: public Plants {
