@@ -4,7 +4,7 @@ CarnivoresAnimals::CarnivoresAnimals(int populationCount, float massOfOneObject,
     Animals(populationCount, massOfOneObject, energy, name) {};
 
 bool CarnivoresAnimals::checkReproductiveAbility() {
-    return true
+    return true;
 };
 
 void CarnivoresAnimals::changePopulation() {

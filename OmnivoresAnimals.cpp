@@ -4,7 +4,7 @@ OmnivoresAnimals::OmnivoresAnimals(int populationCount, float massOfOneObject, f
     Animals(populationCount, massOfOneObject, energy, name) {};
 
 bool OmnivoresAnimals::checkReproductiveAbility() {
-    return true
+    return true;
 };
 
 void OmnivoresAnimals::changePopulation() {

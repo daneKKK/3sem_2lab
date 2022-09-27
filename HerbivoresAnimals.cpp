@@ -4,7 +4,7 @@ HerbivoresAnimals::HerbivoresAnimals(int populationCount, float massOfOneObject,
     Animals(populationCount, massOfOneObject, energy, name) {};
 
 bool HerbivoresAnimals::checkReproductiveAbility() {
-    return true
+    return true;
 };
 
 void HerbivoresAnimals::changePopulation() {
