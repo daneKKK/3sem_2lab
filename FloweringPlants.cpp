@@ -12,6 +12,6 @@ bool FloweringPlants::checkReproductiveAbility() {
     return true;
 }
 
-void FloweringPlants::eat(::Population prey) {
+void FloweringPlants::eat(::Population *prey) {
     this->setEnergy(this->getPopulationCount() / 3.);
 }
