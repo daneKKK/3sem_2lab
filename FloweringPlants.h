@@ -5,5 +5,5 @@ class FloweringPlants: public Plants {
 public:
     void changePopulation();
     bool checkReproductiveAbility();
-    void eat(::Population prey);
+    void eat(::Population *prey);
 };
